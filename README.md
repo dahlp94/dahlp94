@@ -19,7 +19,7 @@
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40"/>
   </a>
   <a href="https://dahlp94.github.io">
-    <img src="https://www.svgrepo.com/show/354513/website.svg" height="30" width="40"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" height="30" width="40"/>
   </a>
 </p>
 
