@@ -26,7 +26,7 @@
 
 ## About Me
 
-- Statistics graduate student focused on **machine learning and probabilistic modeling**
+- PhD Candidate in Statistics building machine learning systems and probabilistic models
 - Experience in:
   - **Bayesian inference (VI, MCMC)**
   - **Graph and spatial models**
