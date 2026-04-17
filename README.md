@@ -31,7 +31,7 @@
   - **Bayesian inference (VI, MCMC)**
   - **Graph and spatial models**
   - **Production ML systems (FastAPI, PostgreSQL)**
-- Interested in **Data Scientist**, **ML Engineer**, and **Applied Scientist** roles
+- Interested in **Data Scientist**, **Machine Learning Engineer**, **Applied Scientist**, and **AI Engineer** roles building real-world ML and AI systems
 
 
 ## Technical Stack
