@@ -1,11 +1,15 @@
 <h1 align="center">Pratik Dahal</h1>
 
 <p align="center">
-  <b>Statistics Graduate Student • Machine Learning • Probabilistic Modeling</b>
+  <b>PhD Candidate in Statistics • Machine Learning • AI Systems</b>
 </p>
 
 <p align="center">
-  Building end-to-end systems from <b>data → model → decision → deployment</b>
+  Applied Machine Learning & AI Systems • Bayesian Modeling • Decision Systems
+</p>
+
+<p align="center">
+  Building end-to-end ML and AI systems from <b>data → model → decision → deployment</b>
 </p>
 
 <p align="center">
@@ -48,28 +52,32 @@
 ## Featured Work
 
 ### SDM-CAR — Spatial Modeling Research
-- Learned flexible spatial dependence via **spectral density modeling**
-- Implemented **variational inference + MCMC benchmarking**
-- Demonstrated robustness under model misspecification
+- Developed a flexible spatial modeling framework using **spectral density learning**
+- Implemented **variational inference and MCMC** for scalable Bayesian inference
+- Demonstrated improved predictive performance and robustness under model misspecification
+- Focused on **interpretable graph-based modeling of spatial dependence**
 
 
 ### BayesPilot — ML Decision System
-- Built full pipeline: training → calibration → threshold optimization → deployment
-- Implemented **decision-aware ML using expected value**
-- Deployed via **FastAPI with monitoring**
+- Built an end-to-end ML pipeline: **training → calibration → threshold optimization → deployment**
+- Implemented **decision-aware modeling using expected value optimization**
+- Compared multiple models (Logistic Regression, Random Forest, Gradient Boosting)
+- Deployed low-latency inference API via **FastAPI with monitoring and logging**
 
 
-### Vector RAG Backend
-- Built **retrieval-augmented generation backend**
-- Integrated **PostgreSQL + pgvector**
-- Designed scalable ingestion and retrieval pipeline
+### Vectra — Retrieval-Augmented AI System
+- Built a **retrieval-augmented generation (RAG) system** for grounded question answering
+- Implemented **document ingestion, chunking, embedding, and vector search pipelines**
+- Integrated **PostgreSQL + pgvector** for scalable semantic retrieval
+- Designed a modular backend supporting **LLM-based answer generation (OpenAI / Anthropic)**
+- Built a production-style AI system combining **retrieval, embeddings, and LLM inference**
 
 
 ## Current Focus
 
-- Structured variational inference  
+- Scalable variational inference for structured probabilistic models  
 - Spatial and graph-based machine learning  
-- Decision-aware ML systems  
+- Real-world ML and AI systems for decision-making  
 
 
 ## Contribution Graph
@@ -83,8 +91,7 @@
 </div>
 
 
-
 ## Links
 
-- Portfolio: https://dahlp94.github.io
-- GitHub: https://github.com/dahlp94
+- Portfolio: https://dahlp94.github.io  
+- GitHub: https://github.com/dahlp94  
