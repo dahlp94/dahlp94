@@ -1,15 +1,15 @@
 <h1 align="center">Pratik Dahal</h1>
 
 <p align="center">
-  <b>PhD Candidate in Statistics • Machine Learning • AI Systems</b>
+  <b>Statistics PhD Candidate • Data Scientist • Statistical Machine Learning</b>
 </p>
 
 <p align="center">
-  Applied Machine Learning & AI Systems • Bayesian Modeling • Decision Systems
+  Bayesian Modeling • Experimentation • Applied ML • Python & SQL
 </p>
 
 <p align="center">
-  Building end-to-end ML and AI systems from <b>data → model → decision → deployment</b>
+  I build statistically rigorous models and experiments, then turn them into systems that can be evaluated and used.
 </p>
 
 <p align="center">
@@ -27,58 +27,108 @@
   </a>
 </p>
 
+---
 
 ## About Me
 
-- PhD Candidate in Statistics building machine learning systems and probabilistic models
-- Experience in:
-  - **Bayesian inference (VI, MCMC)**
-  - **Graph and spatial models**
-  - **Production ML systems (FastAPI, PostgreSQL)**
-- Interested in **Data Scientist**, **Machine Learning Engineer**, **Applied Scientist**, and **AI Engineer** roles building real-world ML and AI systems
+I am a PhD candidate in Statistics focused on applied data science and statistical machine learning.
 
+My work combines **Bayesian modeling, experimentation, uncertainty quantification, and applied ML** with the engineering needed to make analyses reproducible and usable.
+
+I work primarily in **Python and SQL**, and I enjoy turning ambiguous problems into clear statistical questions, evaluating competing approaches carefully, and building practical tools around the results.
+
+**Target roles:** Data Scientist • Applied Data Scientist • Statistical Data Scientist • Applied Scientist
+
+---
 
 ## Technical Stack
 
-<div align="center">
+**Programming & Data**  
+Python • SQL • PostgreSQL • pandas • NumPy • SciPy
 
-| Languages | ML / Statistics | Systems | Data |
-|:--:|:--:|:--:|:--:|
-| ![Python](https://skillicons.dev/icons?i=python) ![R](https://skillicons.dev/icons?i=r) ![SQL](https://skillicons.dev/icons?i=mysql) | ![PyTorch](https://skillicons.dev/icons?i=pytorch) ![Sklearn](https://skillicons.dev/icons?i=sklearn) | ![FastAPI](https://skillicons.dev/icons?i=fastapi) ![Postgres](https://skillicons.dev/icons?i=postgres) | ![Git](https://skillicons.dev/icons?i=git) ![MLflow](https://skillicons.dev/icons?i=github) |
+**Statistics & Machine Learning**  
+PyMC • scikit-learn • PyTorch • Bayesian inference • MCMC • Variational inference • Experimentation • Bootstrap methods
 
-</div>
+**Applied ML Systems**  
+FastAPI • MLflow • Streamlit • Git • pytest
 
+**Research Areas**  
+Bayesian computation • Spatial statistics • Graph-structured models • Uncertainty quantification
+
+---
 
 ## Featured Work
 
-### SDM-CAR — Spatial Modeling Research
-- Developed a flexible spatial modeling framework using **spectral density learning**
-- Implemented **variational inference and MCMC** for scalable Bayesian inference
-- Demonstrated improved predictive performance and robustness under model misspecification
-- Focused on **interpretable graph-based modeling of spatial dependence**
+### BayesWatch — Probabilistic Overdose Modeling Platform
 
+End-to-end statistical modeling system for Arkansas county overdose mortality using CDC WONDER data.
 
-### BayesPilot — ML Decision System
-- Built an end-to-end ML pipeline: **training → calibration → threshold optimization → deployment**
-- Implemented **decision-aware modeling using expected value optimization**
-- Compared multiple models (Logistic Regression, Random Forest, Gradient Boosting)
-- Deployed low-latency inference API via **FastAPI with monitoring and logging**
+- Developed a **suppression-aware Negative Binomial likelihood** that incorporates interval-censored death counts instead of dropping or midpoint-imputing them
+- Modeled all **75 Arkansas counties across 525 county-year records**, including **362 suppressed observations**
+- Compared pooled and hierarchical Bayesian models using a strict **2018–2023 training / 2024 temporal holdout**
+- Tracked experiments and model lineage with **MLflow**, published selected predictions to PostgreSQL, and served results through **FastAPI and Streamlit**
+- Added a grounded AI explanation layer that uses structured API results rather than generating model predictions
 
+**Tech:** Python · PyMC · PostgreSQL · SQL · MLflow · FastAPI · Streamlit
 
-### Vectra — Retrieval-Augmented AI System
-- Built a **retrieval-augmented generation (RAG) system** for grounded question answering
-- Implemented **document ingestion, chunking, embedding, and vector search pipelines**
-- Integrated **PostgreSQL + pgvector** for scalable semantic retrieval
-- Designed a modular backend supporting **LLM-based answer generation (OpenAI / Anthropic)**
-- Built a production-style AI system combining **retrieval, embeddings, and LLM inference**
+[View repository](https://github.com/dahlp94/bayeswatch)
 
+---
+
+### Retail Media Incrementality Platform
+
+Experimentation and commercial analytics platform for measuring whether advertising creates incremental business outcomes rather than relying only on attribution.
+
+- Built randomized **treatment/control experiments** with approximately 80/20 assignment
+- Estimated **conversion lift, incremental orders, and incremental revenue** alongside attributed metrics such as ROAS
+- Added analytic confidence intervals for conversion lift and **member-level bootstrap uncertainty** for order and revenue effects
+- Built reusable **SQL analytical marts** and translated experimental results into campaign-level budget recommendations
+
+**Tech:** Python · SQL · PostgreSQL · Experimentation · Bootstrap
+
+[View repository](https://github.com/dahlp94/retail-media-platform)
+
+---
+
+### SDM-CAR — Bayesian Spatial Modeling Research
+
+Research project on flexible spatial dependence for Conditional Autoregressive models.
+
+- Developed **graph-spectral extensions of CAR models** to relax fixed spatial dependence assumptions
+- Implemented **collapsed variational inference and MCMC** under a common model formulation
+- Evaluated recovery, misspecification, and prediction under block-missing spatial observations
+- Focused on interpretable Bayesian modeling and uncertainty for structured spatial data
+
+**Tech:** Python · Bayesian Statistics · CAR Models · Variational Inference · MCMC
+
+[View repository](https://github.com/dahlp94/sdm-car)
+
+---
+
+### Vectra — Semantic Retrieval & Grounded Question Answering
+
+A retrieval system for searching internal text and markdown documents by meaning and generating answers grounded in retrieved evidence.
+
+- Built document ingestion, chunking, embedding, and storage using **PostgreSQL + pgvector**
+- Implemented metadata-filtered semantic similarity search
+- Built a **FastAPI** service that returns grounded answers with citations and retrieved chunk snippets
+- Designed fallback behavior for weak retrieval rather than forcing unsupported answers
+
+**Tech:** Python · FastAPI · PostgreSQL · pgvector
+
+[View repository](https://github.com/dahlp94/vectra)
+
+---
 
 ## Current Focus
 
-- Scalable variational inference for structured probabilistic models  
-- Spatial and graph-based machine learning  
-- Real-world ML and AI systems for decision-making  
+- Bayesian and probabilistic modeling for real-world data problems
+- Experimentation, incrementality, and uncertainty quantification
+- Scalable variational inference for structured statistical models
+- Spatial and graph-based statistical modeling
+- Building reproducible workflows that connect analysis, evaluation, and usable software
 
+---
 
 ## Contribution Graph
 
@@ -86,12 +136,15 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dahlp94/dahlp94/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dahlp94/dahlp94/output/github-contribution-grid-snake.svg" />
-    <img alt="snake animation" src="https://raw.githubusercontent.com/dahlp94/dahlp94/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution graph" src="https://raw.githubusercontent.com/dahlp94/dahlp94/output/github-contribution-grid-snake.svg" />
   </picture>
 </div>
 
+---
 
-## Links
+## Connect
 
-- Portfolio: https://dahlp94.github.io  
-- GitHub: https://github.com/dahlp94  
+- 🌐 [Portfolio](https://dahlp94.github.io)
+- 💼 [LinkedIn](https://www.linkedin.com/in/pratik-dahal-0363b671/)
+- 💻 [GitHub](https://github.com/dahlp94)
+- 📧 [Email](mailto:mapratikdahal@gmail.com)
