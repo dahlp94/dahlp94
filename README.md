@@ -27,8 +27,6 @@
   </a>
 </p>
 
----
-
 ## About Me
 
 I am a PhD candidate in Statistics focused on applied data science and statistical machine learning.
@@ -39,7 +37,6 @@ I work primarily in **Python and SQL**, and I enjoy turning ambiguous problems i
 
 **Target roles:** Data Scientist • Applied Data Scientist • Statistical Data Scientist • Applied Scientist
 
----
 
 ## Technical Stack
 
@@ -55,7 +52,6 @@ FastAPI • MLflow • Streamlit • Git • pytest
 **Research Areas**  
 Bayesian computation • Spatial statistics • Graph-structured models • Uncertainty quantification
 
----
 
 ## Featured Work
 
@@ -73,7 +69,6 @@ End-to-end statistical modeling system for Arkansas county overdose mortality us
 
 [View repository](https://github.com/dahlp94/bayeswatch)
 
----
 
 ### Retail Media Incrementality Platform
 
@@ -88,7 +83,6 @@ Experimentation and commercial analytics platform for measuring whether advertis
 
 [View repository](https://github.com/dahlp94/retail-media-platform)
 
----
 
 ### SDM-CAR — Bayesian Spatial Modeling Research
 
@@ -103,7 +97,6 @@ Research project on flexible spatial dependence for Conditional Autoregressive m
 
 [View repository](https://github.com/dahlp94/sdm-car)
 
----
 
 ### Vectra — Semantic Retrieval & Grounded Question Answering
 
@@ -118,7 +111,6 @@ A retrieval system for searching internal text and markdown documents by meaning
 
 [View repository](https://github.com/dahlp94/vectra)
 
----
 
 ## Current Focus
 
@@ -128,7 +120,6 @@ A retrieval system for searching internal text and markdown documents by meaning
 - Spatial and graph-based statistical modeling
 - Building reproducible workflows that connect analysis, evaluation, and usable software
 
----
 
 ## Contribution Graph
 
@@ -140,7 +131,6 @@ A retrieval system for searching internal text and markdown documents by meaning
   </picture>
 </div>
 
----
 
 ## Connect
 
