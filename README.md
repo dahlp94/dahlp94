@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Bayesian Modeling • Experimentation • Applied ML • Python & SQL
+  Bayesian Modeling • Biostatistics • Survival Analysis • Experimentation • Applied ML • Python & SQL
 </p>
 
 <p align="center">
