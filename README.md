@@ -1,7 +1,7 @@
 <h1 align="center">Pratik Dahal</h1>
 
 <p align="center">
-  <b>Statistics PhD Candidate • Data Scientist • Statistical Machine Learning</b>
+  <b>Statistics PhD Candidate • Data Analyst • Data Scientist • Statistical Machine Learning</b>
 </p>
 
 <p align="center">
